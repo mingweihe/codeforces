@@ -1,4 +1,4 @@
-# Kotlin competation is only for kotlin language, Orz
+# Kotlin competition is only for kotlin language, Orz
 def solve(N, A):
     ans = []
     s = set()
