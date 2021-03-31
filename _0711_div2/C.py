@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(1000000)
+# maximum recursion depth exceeded error (python)
 def dfs(i, k, cache, n):
     if i == 0 or k == 1: return 1
     if (i, k) in cache: return cache[(i, k)]
